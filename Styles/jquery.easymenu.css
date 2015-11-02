@@ -1,0 +1,170 @@
+ul, li {
+	margin: 0;
+	padding: 10px;
+	list-style-type: none;
+	list-style-image: none;
+	color: #4F1147;
+	font-family: source-sans-pro;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  padding: 10px;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {  *+height:1%;
+}
+
+#menu {
+	list-style: none;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	font-weight: 300;
+	font-family: source-sans-pro;
+	font-style: normal;
+}
+
+#menu a {
+	display: block;
+	white-space: nowrap;
+	padding: 10px 0;
+	text-decoration: none;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #eab120;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li.main-item {
+	float: left;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li.main-item a {
+	color: #4F1147;
+	font-size: 1em;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#menu li.main-item a:hover, #menu li.main-item.hover a {
+	color: #fff;
+	text-decoration: none;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#menu li.main-item ul li.sub-item a {
+	color: #FFF;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#menu li.main-item ul li.sub-item a:hover {
+	color: #eab120;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#menu li {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li.hover {
+	background: #007889;
+	color: #EAB120;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li ul {
+	display: none;
+	position: absolute;
+	background: #007889;
+	border: none;
+	padding: 2px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li ul li {
+	line-height: 10px;
+	margin: 0;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	border: none;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li ul li.separator {
+	line-height: 0;
+	height: 0;
+	font-size: 0;
+	padding: 0;
+	overflow: hidden;
+	background: none;
+	border-top: none;
+	border-bottom: none;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li ul li.hover {
+	background: #01788A;
+	border: none;
+	color: #EAB120;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li.main-item ul li.sub-item.has-child {
+	background: url(arrow.gif) no-repeat right center #edf2f7;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#menu li ul li.has-child.hover {
+	border: none;
+	color: #EAB120;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 300;
+}
+#h2 {
+}

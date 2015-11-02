@@ -1,0 +1,117 @@
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.0326%;
+	padding-left: 1.4836%;
+	padding-right: 1.4836%;
+	clear: none;
+	float: none;
+}
+#mainContent {
+	width: 100%;
+}
+#interview {
+	width: 100%;
+	margin-left: 0;
+	clear: both;
+}
+#artwork {
+	width: 100%;
+	margin-left: 0;
+	clear: both;
+}
+#footer p a {
+	display:block;
+	line-height: .8em;
+}
+.zeroMargin_mobile {
+	margin-left: 0;
+}
+.hide_mobile {
+	display: none;
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+.gridContainer {
+	width: 91.4836%;
+	padding-left: 0.7581%;
+	padding-right: 0.7581%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#mainContent {
+	width: 49.1712%;
+}
+#interview {
+	width: 49.1712%;
+	margin-left: 1.6574%;
+	clear: none;
+}
+#artwork {
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+}
+.hide_tablet {
+	display: none;
+}
+.zeroMargin_tablet {
+	margin-left: 0;
+}
+.gallery {
+	width: 47.5%;
+	float: left;
+}
+#artwork div:nth-child(odd) {
+	margin-right: 5%;
+}
+#footer p a {
+	display: inline !important;
+	line-height: inherit !important;
+}
+#footer p a:first-child:before {
+	content: '\A';
+	white-space: pre;
+}
+
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#mainContent {
+	width: 32.6007%;
+}
+#interview {
+	width: 32.6007%;
+	margin-left: 1.0989%;
+	clear: none;
+}
+#artwork {
+	width: 32.6007%;
+	clear: none;
+	margin-left: 1.0989%;
+}
+.zeroMargin_desktop {
+	margin-left: 0;
+}
+.hide_desktop {
+	display: none;
+}
+#footer p a:first-child:before {
+	content: '';
+	white-space: normal;
+}
