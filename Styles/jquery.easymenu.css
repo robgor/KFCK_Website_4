@@ -27,7 +27,7 @@ ul, li {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	font-weight: 300;
+	font-weight: 400;
 	font-family: source-sans-pro;
 	font-style: normal;
 }
@@ -39,7 +39,7 @@ ul, li {
 	text-decoration: none;
 	font-family: source-sans-pro;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 #menu a:hover {
@@ -47,14 +47,14 @@ ul, li {
 	color: #eab120;
 	font-family: source-sans-pro;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 #menu li.main-item {
 	float: left;
 	font-family: source-sans-pro;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 #menu li.main-item a {
@@ -94,7 +94,7 @@ ul, li {
 	padding-bottom: 0px;
 	font-family: source-sans-pro;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 #menu li.hover {
@@ -102,7 +102,7 @@ ul, li {
 	color: #EAB120;
 	font-family: source-sans-pro;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 #menu li ul {

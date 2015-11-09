@@ -30,6 +30,7 @@ a {
 	width: 90%;
 	margin: 0 auto;
 	position: relative;
+	height: 100%;
 }
 
 .container > header {

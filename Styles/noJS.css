@@ -11,6 +11,6 @@
 }
 
 .wrapper-dropdown-5:focus .dropdown {
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    max-height: 400px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	max-height: 600px;
 }

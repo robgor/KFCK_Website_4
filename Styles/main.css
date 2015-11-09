@@ -290,8 +290,9 @@ img, object, embed, video {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 150%;
+	font-size: 1.5em;
 	padding-top: 0px;
+	margin-top: -15px;
 }
 #Subhead {
 	color: #4F1147;
@@ -312,6 +313,7 @@ img, object, embed, video {
 	font-size: 1.25em;
 	padding-bottom: 6px;
 	padding-top: 3px;
+	margin-top: 5px;
 }
 .SubscribeButton {
 	background-color: #01788A;
@@ -322,7 +324,7 @@ img, object, embed, video {
 	margin-bottom: 25px;
 	font-family: source-sans-pro;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 1.0625em;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -343,6 +345,7 @@ img, object, embed, video {
 	padding-bottom: 4px;
 	padding-left: 8px;
 	width: 95%;
+	margin-top: 10px;
 }
 #Header1 {
 	padding-top: 5px;
@@ -363,14 +366,49 @@ img, object, embed, video {
 }
 .HangingIndent {
 	padding-left: 20px;
-	text-indent: -5px;
+	text-indent: -6px;
 	color: #4F1147;
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.125em;
 	line-height: 150%;
-	padding-top: 10px;
+	padding-top: 0px;
+	margin-top: 5px;
 }
 #Header1 {
+}
+.pdfIcon {
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+	float: right;
+	color: #4F1147;
+	margin-top: 10px;
+}
+.pdf {
+}
+.pdfDownload {
+	color: #4F1147;
+	margin-top: 6px;
+}
+.TopHeader {
+	margin-top: 10px;
+	color: #01788A;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+.FluidListInd {
+	color: #4F1147;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 20px;
+	text-indent: -6px;
+	font-size: 100%;
+	margin-top: 0px;
+	padding-top: 0px;
+	line-height: 150%;
 }
