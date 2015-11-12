@@ -321,6 +321,9 @@ margin-left: 0;
 #Header2 {
 	display: none;
 }
+#BulletedListHidden {
+	display: none;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -422,6 +425,8 @@ margin-left: 0;
 }
 #SubheadForScreen {
 	width: 75%;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 #Header1 {
 }
@@ -482,6 +487,9 @@ margin-left: 0;
 }
 .hide_desktop {
 display: none;
+}
+#BulletedListHidden {
+	display: none;
 }
 }
 
@@ -608,6 +616,9 @@ display: none;
 }
 .GrandparentRaisingChildrenScreen {
 }
+#BulletedListHidden {
+	display: none;
+}
 }
 /* Mobile Layout: 480px and below. */
 
@@ -651,5 +662,9 @@ display: none;
 .GrandparentRaisingChildrenScreen {
 	display: none;
 }
+#BulletedListHidden {
+}
 	
+}
+#BulletedListHidden {
 }
