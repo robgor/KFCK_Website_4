@@ -104,6 +104,8 @@ ul, li {
 	font-style: normal;
 	font-weight: 400;
 }
+.hover {
+}
 
 #menu li ul {
 	display: none;
