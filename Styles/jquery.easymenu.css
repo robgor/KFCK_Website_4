@@ -10,12 +10,13 @@ ul, li {
 }
 
 .clearfix:after {
-  content: ".";
-  display: block;
-  padding: 10px;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	margin-right: 0%;
+	margin-left: 0%;
 }
 
 .clearfix {  *+height:1%;
@@ -40,6 +41,7 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 400;
+	justify-content: space-between;
 }
 
 #menu a:hover {
@@ -48,6 +50,7 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 400;
+	justify-content: space-between;
 }
 
 #menu li.main-item {
@@ -63,6 +66,7 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 400;
+	justify-content: space-between;
 }
 
 #menu li.main-item a:hover, #menu li.main-item.hover a {
@@ -71,6 +75,7 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 400;
+	justify-content: space-between;
 }
 
 #menu li.main-item ul li.sub-item a {
@@ -103,8 +108,12 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 400;
+	justify-content: space-between;
 }
 .hover {
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #menu li ul {
@@ -116,6 +125,7 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 300;
+	justify-content: space-between;
 }
 
 #menu li ul li {
@@ -129,6 +139,7 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 300;
+
 }
 
 #menu li ul li.separator {
@@ -152,6 +163,7 @@ ul, li {
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-weight: 300;
+	justify-content: space-between;
 }
 
 #menu li.main-item ul li.sub-item.has-child {
